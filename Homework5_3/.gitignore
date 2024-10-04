@@ -13,3 +13,12 @@
 .externalNativeBuild
 .cxx
 local.properties
+/out/
+/gradle/
+/.vscode/
+*.log
+*.apk
+*.ap_
+*.class
+*.dex
+*.keystore

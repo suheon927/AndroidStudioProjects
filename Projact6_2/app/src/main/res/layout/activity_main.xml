@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <EditText
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:id="@+id/edtUrl"
+            android:singleLine="true">
+        </EditText>
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:id="@+id/btnGo"
+            android:text="move"  />
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:id="@+id/btnBack"
+            android:text="last"  />
+    </LinearLayout>
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="682dp"
+        android:id="@+id/webView1"/>
+</LinearLayout>
